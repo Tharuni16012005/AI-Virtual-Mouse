@@ -120,4 +120,5 @@ python virtual_drawing_board.py
 
 Electronics and Communication Engineering Student
 
-Interested in Artificial Intelligence, Computer Vision, Embedded Systems, Python Development, and Human-Computer Interaction.
+Interested in Artificial Intelligence, IoT Architect, Embedded Systems, Python Development, and Human-Computer Interaction.
+
