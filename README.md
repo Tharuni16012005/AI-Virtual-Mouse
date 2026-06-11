@@ -19,6 +19,26 @@ This project enables users to control their computer using hand gestures capture
 * Virtual Drawing Board
 * Volume Control using Hand Gestures
 
+## Project Modules
+
+1. Hand Tracking
+   - Detects hand landmarks using MediaPipe.
+
+2. Virtual Mouse
+   - Controls cursor movement and mouse clicks.
+
+3. Drag and Drop
+   - Allows dragging files and folders using gestures.
+
+4. Scrolling
+   - Scrolls pages using finger gestures.
+
+5. Drawing Board
+   - Draws on a virtual canvas using index finger movement.
+
+6. Volume Control
+   - Adjusts system volume based on finger distance.
+
 ## Technologies Used
 
 * Python
