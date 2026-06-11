@@ -30,6 +30,9 @@ This project enables users to control their computer using hand gestures capture
 ## Project Structure
 
 ```text
+## Project Structure
+
+```text
 AI-Virtual-Mouse/
 │
 ├── hand_tracker_live.py
@@ -37,13 +40,15 @@ AI-Virtual-Mouse/
 ├── virtual_mouse_drag.py
 ├── virtual_mouse_scroll.py
 ├── virtual_drawing_board.py
+├── volume_control.py
 ├── requirements.txt
 │
 ├── hand_tracking.png
 ├── virtual_mouse_pro.png
 ├── drag_drop.png
 ├── scrolling.png
-└── drawing_board.png
+├── drawing_board.png
+└── volume_control.png
 ```
 
 ## Screenshots
@@ -68,11 +73,9 @@ AI-Virtual-Mouse/
 
 ![Drawing Board](drawing_board.png)
 
-## Installation
+### Volume Control
 
-```bash
-pip install -r requirements.txt
-```
+![Volume Control](volume_control.png)
 
 ## Run the Modules
 
@@ -104,6 +107,14 @@ python virtual_mouse_scroll.py
 
 ```bash
 python virtual_drawing_board.py
+```
+
+### Volume Control
+
+```bash
+python volume_control.py
+```
+
 ```
 
 ## Future Enhancements
