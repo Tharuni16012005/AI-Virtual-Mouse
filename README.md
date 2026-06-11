@@ -1,4 +1,5 @@
 # AI Virtual Mouse
+### Gesture Controlled Human-Computer Interaction System
 
 An AI-powered Virtual Mouse and Gesture Control System built using Python, OpenCV, and MediaPipe.
 
