@@ -7,28 +7,28 @@ An AI-powered Virtual Mouse and Gesture Control System built using Python, OpenC
 
 This project enables users to control their computer using hand gestures captured through a webcam. The system tracks hand landmarks in real time and converts gestures into mouse actions, scrolling, drawing, drag-and-drop operations, and volume control.
 
-##Case Study
+## Case Study
 
-Problem
+**Problem**
 Traditional input devices assume everyone has easy, reliable access to a physical mouse and keyboard. That's not always true — and even when it is, touchless, gesture-based control opens up new ways to interact with a computer that don't need any hardware beyond a webcam.
 
-What I did
+**What I did**
 I built a real-time gesture control system in Python using OpenCV for video processing and MediaPipe for hand landmark detection. The system tracks hand position and finger gestures through a webcam feed and translates them into computer actions across six modules:
 
-Virtual Mouse — cursor movement + left/right/double-click via hand gestures
-Drag and Drop — moving files/folders with gesture control
-Scrolling — page scroll via finger movement
-Virtual Drawing Board — freehand drawing tracked by index finger position
-Volume Control — system volume adjusted by finger-distance gestures
-Hand Tracking — the real-time landmark detection layer underpinning everything above
+-**Virtual Mouse** — cursor movement + left/right/double-click via hand gestures
+-**Drag and Drop** — moving files/folders with gesture control
+-**Scrolling** — page scroll via finger movement
+-**Virtual Drawing Board** — freehand drawing tracked by index finger position
+-**Volume Control** — system volume adjusted by finger-distance gestures
+-**Hand Tracking** — the real-time landmark detection layer underpinning everything above
 
 Built with Python, OpenCV, MediaPipe, PyAutoGUI, NumPy, and Pycaw.
 
-What came of it
+**What came of it**
 All six modules work reliably with accurate, low-latency gesture recognition — demoed live and on video. The project turned a single "virtual mouse" idea into a full gesture-based interaction suite.
 
-##Watch demo
- https://drive.google.com/file/d/130eYZ-w94DCumnSN3SMKj7E18okRVy6j/view?usp=sharing
+## Watch demo
+ **https://drive.google.com/file/d/130eYZ-w94DCumnSN3SMKj7E18okRVy6j/view?usp=sharing**
 
 ## Features
 
