@@ -15,12 +15,12 @@ Traditional input devices assume everyone has easy, reliable access to a physica
 **What I did**
 I built a real-time gesture control system in Python using OpenCV for video processing and MediaPipe for hand landmark detection. The system tracks hand position and finger gestures through a webcam feed and translates them into computer actions across six modules:
 
--**Virtual Mouse** — cursor movement + left/right/double-click via hand gestures
--**Drag and Drop** — moving files/folders with gesture control
--**Scrolling** — page scroll via finger movement
--**Virtual Drawing Board** — freehand drawing tracked by index finger position
--**Volume Control** — system volume adjusted by finger-distance gestures
--**Hand Tracking** — the real-time landmark detection layer underpinning everything above
+- **Virtual Mouse** — cursor movement + left/right/double-click via hand gestures
+- **Drag and Drop** — moving files/folders with gesture control
+- **Scrolling** — page scroll via finger movement
+- **Virtual Drawing Board** — freehand drawing tracked by index finger position
+- **Volume Control** — system volume adjusted by finger-distance gestures
+- **Hand Tracking** — the real-time landmark detection layer underpinning everything above
 
 Built with Python, OpenCV, MediaPipe, PyAutoGUI, NumPy, and Pycaw.
 
@@ -72,9 +72,6 @@ All six modules work reliably with accurate, low-latency gesture recognition —
 * NumPy
 * Pycaw
 
-## Project Structure
-
-```text
 ## Project Structure
 
 ```text
@@ -158,8 +155,6 @@ python virtual_drawing_board.py
 
 ```bash
 python volume_control.py
-```
-
 ```
 
 ## Future Enhancements
